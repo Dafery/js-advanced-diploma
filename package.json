@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server --mode development",
     "test": "jest --coverage",
-    "lint": "eslint .",
+    "lint": "eslint . --fix",
     "build": "webpack --mode production",
     "preshow:coverage": "npm run coverage",
     "show:coverage": "live-server coverage/lcov-report",
